@@ -1,31 +1,41 @@
-# QA JS Vue Star Wars App
+# Star Wars QA Web App (JavaScript)
 
-## 📌 About
-Interactive web application built with JavaScript, HTML, and CSS.
+## 🔗 Live Demo
+https://gabidalla07.github.io/qa-js-vue-star-wars/
 
-Focus on DOM manipulation and user interaction.
+## About
+This is a simple Star Wars web app built with JavaScript, HTML and CSS.
 
-## 🚀 Features
+I used this project to practice DOM manipulation and, mainly, to apply a QA mindset on top of a front-end application.
+
+## What the app does
 - Search characters
-- Favorite characters
-- Remove characters
+- Mark/unmark as favorite
+- Remove characters from the list
 
-## 🧪 QA Perspective
-This project can be used to practice:
-- DOM interaction
-- UI behavior validation
-- Element selection strategies (CSS selectors)
+## QA Approach
+Instead of focusing only on the UI, I looked at how the application behaves under different user actions.
 
-## 🧪 Test Scenarios
-- Verify that search returns correct characters
-- Validate favorite toggle behavior
-- Ensure removed items disappear from the UI
+Some points I considered:
+- How search behaves with different inputs (empty, partial, invalid)
+- UI state changes (favorite toggle, removal from list)
+- Consistency between what is shown and the actual state of the application
 
-## 🛠️ Technologies
+## Test Scenarios (examples)
+- Search for an existing character and validate results
+- Search with empty input
+- Toggle favorite multiple times and validate state
+- Remove a character and ensure it no longer appears in the list
+
+## Notes / Observations
+- Favorite state is not persisted after page reload
+- No feedback when search returns no results
+
+## Tech
 - JavaScript
 - HTML
 - CSS
-- Vue.js
+- Vue.js (basic usage)
 
-## ▶️ How to run
-Open index.html in your browser
+## Run locally
+Just open `index.html` in your browser
