@@ -1,3 +1,7 @@
+# Star Wars Vue Project
+
+![Preview](assets/preview.png)
+
 # Star Wars QA Web App (JavaScript)
 
 ## 🔗 Live Demo
