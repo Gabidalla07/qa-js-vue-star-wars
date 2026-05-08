@@ -1,8 +1,6 @@
-# Star Wars Vue Project
+# Star Wars QA Web App (JavaScript)
 
 ![Preview](assets/preview.png)
-
-# Star Wars QA Web App (JavaScript)
 
 ## 🔗 Live Demo
 https://gabidalla07.github.io/qa-js-vue-star-wars/
@@ -14,7 +12,7 @@ I used this project to practice DOM manipulation and, mainly, to apply a QA mind
 
 ## What the app does
 - Search characters
-- Mark/unmark as favorite
+- Add/remove favorites
 - Remove characters from the list
 
 ## QA Approach
@@ -39,7 +37,7 @@ Some points I considered:
 - JavaScript
 - HTML
 - CSS
-- Vue.js (basic usage)
-
+- Vue.js
+ 
 ## Run locally
 Just open `index.html` in your browser
